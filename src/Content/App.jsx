@@ -1,5 +1,6 @@
 import React from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import Navbar from '../Navbar/Navbar'
 import Home from './Home/Home'
 import Product from './Product/Products'
 import Register from './Register/Register'
@@ -8,6 +9,7 @@ export default function App(){
     return(
         <>
         <BrowserRouter>
+        <Navbar/>
         <Routes>
             <Route path='/' element={<Home/>}></Route>
             <Route path='/Product' element={<Product/>}></Route>
