@@ -1,0 +1,102 @@
+.product_section{
+ width:100%;
+ margin-top: 10px;
+ display: flex;
+}
+.product_section .left{
+ width:20%;
+ background-color: red;
+ /* height:400px; */
+ margin-right:2px;
+}
+.product_section .right{
+    display: flex;
+    flex-wrap: wrap;
+ width:80%;
+ /* background-color:green; */
+ /* height:400px; */
+ margin-left:2px;
+ /* display: flex;
+ align-items: center;
+ justify-content: center; */
+}
+.product_section .right .box{
+    margin-left:2px;
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.product_section .right .box .item{
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+ width:48%;
+ margin:5px;
+ /* padding:10px; */
+}
+.product_section .right .box .item h3{
+    /* text-align: center; */
+}
+.product_section .right .box .item .btn{
+    text-align: center;
+    width:100%;
+    padding:10px;
+    background-color: brown;
+  
+    border: none;
+    /* border-radius: 5px; */
+}
+.product_section .right .box .item .btn a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.product_section .right .box .item .medium{
+    /* background-color: red; */
+    width:100%;
+    /* padding:10px; */
+    height:250px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+.product_section .right .box .item .medium .m_right{
+    /* background-color: blue; */
+    /* padding: 30px; */
+    width:49%;
+    height: 100%;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+   
+}
+.product_section .right .box .item .medium .m_right .para{
+   background-color: rgb(220, 228, 228);
+   width:180px;
+   padding:10px;
+   /* height:100px;  */
+}
+.product_section .right .box .item .medium .m_right p{}
+.product_section .right .box .item .medium .m_left{
+    /* background-color: yellow; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    width:49%;
+    height: 100%;
+  
+
+}
+.product_section .right .box .item .medium .m_left .img{
+   width:100px;
+   height:100px;
+   padding-left: 20px;
+
+}
+.product_section .right .box .item .medium .m_left .img img{
+    width:100%;
+   
+
+    /* height: 200px; */
+}
