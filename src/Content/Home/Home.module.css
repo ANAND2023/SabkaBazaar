@@ -1,0 +1,14 @@
+.main{
+    width:100%;
+
+}
+.container{
+    width:90%;
+    /* height:100vh; */
+    margin: auto;
+    /* background-color: red; */
+}
+.main .home-section{
+    width:100%;
+    /* margin-top: 500px;; */
+}

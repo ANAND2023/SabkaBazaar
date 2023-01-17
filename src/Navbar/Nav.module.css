@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+   
+}
+.main{
+    width:100%;
+   
+}
+.main .container{
+   
+    /* top:0px;
+    position: fixed; */
+    width:90%;
+    margin:auto;
+    padding: 0 20px;
+    box-shadow: 0 4px 4px -4px grey;
+}
+.main .container .row{
+   width:100%;
+   
+}
+.main .main_nav{
+    z-index: 100;
+    /* background:green; */
+    display: flex;
+    justify-content: space-between;
+  
+    
+}
+.main .main_nav li{
+    list-style: none;
+}
+.main .main_nav li a{
+    text-decoration: none;
+    color:black;
+}
+.main .main_nav li a:hover{
+    text-decoration: underline;
+}
+.main .main_nav .main_nav_left{
+    display: flex;
+    align-items: flex-end;
+}
+.main .main_nav .main_nav_left .logo{
+    padding:2px
+}
+.main .main_nav .main_nav_left .logo img{
+    width:100%;
+}
+.main .main_nav .main_nav_left li{
+    padding:15px 10px;
+  
+}
+.main .main_nav .main_nav_right{
+    display:flex;
+    
+}
+.main .main_nav .main_nav_right li{
+    padding: 15px 10px 10px 0px;
+    padding-top:5px;
+}
+.main .main_nav .main_nav_right .cart{
+   position:relative;
+  
+
+    /* width:50px; */
+
+}
+.main .main_nav .main_nav_right .cart .cartItem{
+    position:absolute;
+    top:30px;
+    right: 10px;
+    width:100px;
+    background: #efebeb;
+    padding:1px 0 0 5px;
+    cursor: pointer;
+}
+/* 
+.main .container .row li{
+    list-style-type: none;
+}
+.main .container .row li a{
+    text-decoration: none;
+    color:black;
+}
+.main .container .row .right{
+    display:flex;
+    
+}
+.main .container .row .right li{
+    padding:15px;
+    
+}
+.main .container .row .left .img{
+    width:100%;
+margin-top:0;
+
+}
+.main .container .row .right li img{
+    height: 500px;
+}
+.main .container .row .left{
+    display:flex;
+    align-items:flex-end;
+}
+.main .container .row .left li{
+    padding:15px;
+} */
